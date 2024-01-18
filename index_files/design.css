@@ -55,14 +55,30 @@
     background-color:rgba(209, 202, 176, 0.6);
 
 }
-
+body {
+    /* background-color:rgba(240, 232, 205, 1); */
+}
 .GAL {
     border-radius: 13px;
     margin-top: 15px;
 background-color: rgba(143, 135, 109, 0.671);
-};
+}
 
 img.GIMG {
     margin-right: 10%;
     margin-left: 10%;
-};
+}
+#nav {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0 0 13px 13px;
+}
+
+@media (width < 700px) {
+    body{
+        background-color:rgba(240, 232, 205, 1);
+}
+    .mobile {
+margin-top: 1%;
+    }
+}
