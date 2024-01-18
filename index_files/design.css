@@ -1,0 +1,68 @@
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+};
+
+.navigacia {
+    background-color: rgba(255, 255, 255, 0.548);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.VNS {
+    text-align:center; 
+    background-color: rgba(128, 110, 110, 0.473);
+    margin-inline: 5% 5%;
+    min-height: 50px;
+    border-radius: 13px;
+}
+.DPC {
+    /* text-align:center;  */
+    background-color: rgba(124, 25, 25, 0.733);
+    margin-inline: 5% 5%;
+    border-radius: 13px;
+    max-height: 340px;
+    min-height: 140px;
+}
+
+.RV {
+    border-radius: 13px  0  0 13px;
+    width: 420px; 
+    background-color:rgba(209, 202, 176, 0.6)  ;
+    /* margin-left: 50px; */
+}
+.LV {
+
+    border-radius: 0 13px 13px 0  ;
+    width: 420px; 
+    background-color:rgba(209, 202, 176, 0.6);
+
+}
+.Maint {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.MID {
+    margin-left: 20px;  
+    min-width: 420px; 
+    margin-right: 20px; 
+    background-color:rgba(209, 202, 176, 0.6);
+
+}
+
+.GAL {
+    border-radius: 13px;
+    margin-top: 15px;
+background-color: rgba(143, 135, 109, 0.671);
+};
+
+img.GIMG {
+    margin-right: 10%;
+    margin-left: 10%;
+};
