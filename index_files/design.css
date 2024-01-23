@@ -94,6 +94,7 @@ img.GIMG {
     .mobile {
 margin-top: 1%;
 margin-left: 5%;
+margin-right: 5%;
 }
 #DPT {
     width: 450px; 
@@ -111,7 +112,8 @@ margin-left: 5%;
 }
 
 .MID {
-    min-width: 375px; 
+    width: 90%;
+    /* min-width: 375px;  */
     background-color:rgba(209, 202, 176, 0.6);
 }
 }
