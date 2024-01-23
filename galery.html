@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/png" href="./index_files/gerb.png" rel="shortcut icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="./index_files/design.css" >
+    <title>КГОБУ</title>
+</head>
+<body style="background-color:rgba(240, 232, 205, 1)">
+<div class="navi ">
+ 
+    
+    <nav id="nav" class="navigacia navbar navbar-expand-lg" style="background-color: rgba(255, 255, 255, 0.548); ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="http://kgbou/"><img src="./galery_files/gerb.png" style="max-width:90px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div id="DPT" style="width: 450px; height:80px; text-align:center">
+            <h5 class="text-primary">КГОБУ<br>Коррекционная школа-интернат<br>для детей-сирот г.Находки</h5>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://kgbou/index"><h5>Главная страница</h5></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://kgbou/galery/1"><h5>Фото галерея</h5></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://kgbou/galery/1#"><h5>Обратная связь</h5></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="http://kgbou/galery/1#"><h5>Сведения об образовательной органицзации</h5></a>
+            </li>
+            <li class="nav-item"><div class="dropdown">
+  <a class="nav-link active dropdown-toggle" style="color:red" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><h5> Секретная-строка</h5></a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="http://kgbou/login">Login</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/logout">logout</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/leftbar">редактор Левой панели</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/lineupdate">редактор Важных объявлений</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/pageedit">редктрор страниц</a></li>
+  </ul>
+</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<script>
+    const DPT = document.getElementById("DPT");
+DPT.addEventListener(
+  "mouseover",
+  function() {
+    document.getElementById("DPT").innerHTML = '<h4 id="DPT0" class="text-primary">Департаменть образования</h4><h4 id="DPT1" class="text-primary">Приморского края</h4>';
+    setTimeout(mouseout, 500);
+  }
+);
+  function mouseout() {
+    document.getElementById("DPT").innerHTML = '<h5 class="text-primary">КГОБУ<br>Коррекционная школа-интернат<br>для детей-сирот г.Находки</h5>';
+  };
+</script>
+<br><div>
+<div class="row justify-content-center">
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Левый Блок -->
+                                        <div class=" RV col-md-auto">
+<div style="margin-top:10px; text-align:center;  background-color: ">
+<h3 style="margin-top:15px; "><strong>Важное объявление</strong></h3>
+<p style="text-align:center; margin-left: 10px;">
+«Теремок на новый лад»<br>Приглашаем всех подряд!<br>Приходите, посмотрите<br>и артистов похвалите!<br>С нетерпеньем ждём мы вас,<br>В этот день и в этот час!<br>27 октября в 13:30<br></p><p style="text-align:right; margin-right: 25px;">Администрация школы </p>
+</div>
+<div>
+<div class="VNS align-self-center p-2"><h4>Вне классные занятия</h4></div>
+<div style="margin-top: 15px"></div><div class="DPC"><img style="margin-left:15px ;max-width:100px; max-height:130px; float:left;" src="./galery_files/gerb.png"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet</p></div><div style="margin-top: 15px"></div><div class="DPC"><img style="margin-left:15px ;max-width:100px; max-height:130px; float:left;" src="./galery_files/gerb.png"><p>asdasdasd</p></div><div style="margin-top:15px"></div>
+</div>
+                                        </div>
+<!-- //////////////////////////////////////////// Средний блок -->
+<div class="MID col-6">
+<h1 style="text-align:center"> Главная галерея </h1>
+        <div class="GAL Maint">
+<!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+<div><div id="carousel1" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class=""></button><button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" class=""></button><button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" class=""></button><button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" class="active" aria-current="true"></button> </div><div class="carousel-inner"><div id="FakeNumber" class="carousel-item"><div class="d-flex justify-content-center"><img src="./galery_files/gerb.png" class="img-fluid d-block mw-60"> </div></div><div class="carousel-item"><div class="d-flex justify-content-center"><img src="./galery_files/gerb.png" class="img-fluid d-block w-60"> </div> </div><div class="carousel-item"><div class="d-flex justify-content-center"><img src="./galery_files/gerb2.png" class="img-fluid d-block w-60"> </div> </div><div class="carousel-item active"><div class="d-flex justify-content-center"><img src="./galery_files/gerb3.png" class="img-fluid d-block w-60"> </div> </div></div><button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div><!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+    </div></div>
+
+
+<!-- /////////////////////////////////////////// Правый блок -->
+<div class="LV col-md-auto">
+        <div style="margin-left:5px; margin-top:15px">
+<h3 style="text-align:center"><strong>Фото галереи</strong></h3>
+<table class="table" id="tbody">
+        <tbody>
+<tr><td class="spi"><a style="min-width:70px" href="http://kgbou/galery/1" class="text-success">Главная галерея</a></td><td>Галерея созданная чтобы показать возможность системы</td></tr><tr><td class="spi"><a style="min-width:70px" href="http://kgbou/galery/2" class="text-success">kkkk</a></td><td></td></tr><tr><td class="spi"><a style="min-width:70px" href="http://kgbou/galery/3" class="text-success">kkkk</a></td><td></td></tr><tr><td class="spi"><a style="min-width:70px" href="http://kgbou/galery/4" class="text-success">Обычная гал</a></td><td></td></tr></tbody></table><!-- ///////////////////////////////////////////// -->
+</div>
+        </div>
+
+</div>
+
+<br>  <footer class="py-3 my-4">
+    <!-- <ul class="nav justify-content-center  border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul> -->
+    <p class="text-center text-muted">© 2023 КГБОУ Коррекционная школа-интернат для детей-сирот г.Находки</p>
+  </footer>
+<br></div></body></html>
