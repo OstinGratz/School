@@ -1,0 +1,137 @@
+
+<!-- saved from url=(0021)http://kgbou/Feedback -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link type="image/png" href="./feedback_files/gerb.png" rel="shortcut icon">
+<link href="./feedback_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="./feedback_files/bootstrap.bundle.min.js.Без названия" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="./feedback_files/design.css">
+    <title>КГОБУ</title>
+</head>
+<body style="background-color:rgba(240, 232, 205, 1)">
+<div class="navi ">
+ 
+    
+    <nav id="nav" class="navigacia navbar navbar-expand-lg" style="background-color: rgba(255, 255, 255, 0.548); ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="http://kgbou/"><img src="./feedback_files/gerb.png" style="max-width:90px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div id="DPT" style="width: 450px; height:80px; text-align:center"><h5 class="text-primary">КГОБУ<br>Коррекционная школа-интернат<br>для детей-сирот г.Находки</h5></div>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://kgbou/index"><h5>Главная страница</h5></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://kgbou/galery/1"><h5>Фото галерея</h5></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://kgbou/Feedback"><h5>Обратная связь</h5></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="http://kgbou/Feedback#"><h5>Сведения об образовательной органицзации</h5></a>
+            </li>
+            <li class="nav-item"><div class="dropdown">
+  <a class="nav-link active dropdown-toggle" style="color:red" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><h5> Секретная-строка</h5></a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="http://kgbou/login">Login</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/logout">logout</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/leftbar">редактор Левой панели</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/lineupdate">редактор Важных объявлений</a></li>
+    <li><a class="dropdown-item" href="http://kgbou/pageedit">редктрор страниц</a></li>
+  </ul>
+</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<script>
+    const DPT = document.getElementById("DPT");
+DPT.addEventListener(
+  "mouseover",
+  function() {
+    document.getElementById("DPT").innerHTML = '<h4 id="DPT0" class="text-primary">Департаменть образования</h4><h4 id="DPT1" class="text-primary">Приморского края</h4>';
+    setTimeout(mouseout, 500);
+  }
+);
+  function mouseout() {
+    document.getElementById("DPT").innerHTML = '<h5 class="text-primary">КГОБУ<br>Коррекционная школа-интернат<br>для детей-сирот г.Находки</h5>';
+  };
+</script>
+<style>
+    .form-control {
+        background-color: #f0e8cd;
+        color: black;
+        border: 1px solid #b8ab29;
+    }
+</style>
+<br>
+        <div class="MID col-6" style="width: 50%;  margin-left:25%; margin-right:25%;">
+            <div class="Maint">
+<h1 style="text-align:center"> Обратная связь </h1>
+
+
+       
+
+            <div class="container">
+  <div class="row">
+    <div class="col">
+<p>Адрес: г.Находка Ул. Ленинская дом 2б;
+<br>Телефон: +7984125672;</p>
+
+    </div>
+    <div class="col">
+
+    <div class="container" style="margin: bottom 20px;">
+<h3>Форма обратной связи</h3>
+<form method="POST" enctype="multipart/form-data" id="form">
+<label class="form-label">Имя</label>
+<input name="name" class="form-control" id="loginInput" value="">
+<br>
+<label class="form-label">Электронная почта</label>
+<input name="email" class="form-control" id="loginInput" value="">
+<br>
+<div class="mb-3">
+<label for="exampleInputPassword1" class="form-label">Сообщение</label>
+<input name="text" class="form-control" id="emailInput" value="">
+<br>
+<button type="submit" class="btn btn-primary" id="submit">Отправить</button><span>  </span>
+<br>
+
+</div></form></div></div>
+
+
+
+    </div>   
+</div> 
+            </div>
+        </div>
+        
+<br>
+<script>
+    let zz = document.querySelector('.table');
+    zz.addEventListener('click',function(e){
+        if (e.target.tagName =='BUTTON'){
+            if(e.target.dataset.action == "done") {
+            window.location = "galeryedit/"+e.target.closest("tr").dataset.id+"/";  
+            //+e.target.parentElement.parentElement.parentElement.children[0].innerHtml;
+            
+          }  
+        }
+    }  );
+    </script>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center  border-bottom pb-3 mb-3">
+      <li class="nav-item"><a class="nav-link text-muted">Адрес: г.Находка Ул. Ленинская дом 2б; </a><a class="nav-link text-muted"> Телефон: +7984125672;</a></li>
+
+      <li class="nav-item">
+        <a href="http://kgbou/Feedback" class="nav-link px-2 text-muted">Обратная связь</a>
+      <a href="http://kgbou/Feedback#" class="nav-link  text-muted">Сведения об образовательной органицзации</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2024 КГБОУ Коррекционная школа-интернат для детей-сирот г.Находки</p>
+  </footer>
+<br></body></html>
