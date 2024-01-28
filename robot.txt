@@ -1,0 +1,3 @@
+User-agent: Yandex
+Disallow: /admin/
+Sitemap: http://https://ostingratz.github.io/School/sitemap.xml
