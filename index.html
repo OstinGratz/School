@@ -91,4 +91,17 @@
 
 <br>
 </body>
+<script>
+  const DPT = document.getElementById("DPT");
+DPT.addEventListener(
+"mouseover",
+function() {
+  document.getElementById("DPT").innerHTML = '<h4 id="DPT0" class="text-primary">Департаменть образования</h4><h4 id="DPT1" class="text-primary">Приморского края</h4>';
+  setTimeout(mouseout, 500);
+}
+);
+function mouseout() {
+  document.getElementById("DPT").innerHTML = '<h5 class="text-primary">КГОБУ<br>Коррекционная школа-интернат<br>для детей-сирот г.Находки</h5>';
+};
+</script>
 </html>
